@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap');
+    /* Reset some default styles */
+     h1, h2, h3, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Apply basic styling */
+    body{
+   background: #081b29;
+    color: #ededed;
+    font-family: 'Poppins', sans-serif;
+}
+
+    .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 82%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* .logo::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #081b29;
+        animation: showRight 1s ease forwards;
+        animation-delay: .4s;
+
+} */
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+
+}
+
+
+
+    .container {
+        position: relative;
+      width: 80%;
+      margin: 0 auto;
+      /* padding: 2rem; */
+      top: 108px;
+    }
+
+    .projects {
+      text-align: left;
+    }
+    .projects h2{
+        font-size: 30px;
+    }
+    .project {
+      background-color: #081b29;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 2rem auto;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .project img {
+      width: 130px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-info {
+      flex: 1;
+      padding-left: 2rem;
+    }
+
+    .project h3 a{
+      color: #00abf0;
+      text-decoration: none;
+      font-size: 25px;
+      margin-bottom: 1rem;
+    }
+
+    
+
+
+
+    /* Other styles here */
+  </style>
+  <title>My Game Development Projects</title>
+</head>
+<body>
+    <header class="header">
+        <a href="/index.html" class="logo"> Jeetesh</a>
+
+        <nav class="navbar">
+            <a href="/index.html" class="active">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/skill.html">Skill</a>
+            <a href="/project.html">Project</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+</header>
+  <div class="container">
+    <section class="projects">
+      <h2>Game Development Projects</h2>
+      <div class="project">
+        <img src="photoes/1.png" alt="Project 1">
+        <div class="project-info">
+          <h3 ><a href="https://drive.google.com/file/d/1LQzi9tCRSd4Ayo6Bq0YyRBj0ipSp0zS3/view?usp=drivesdk">Infinity Runner</a></h3>
+          <p>• Technologies: Unity 3D , C# <br>
+            • "Created an exhilarating Infinity Runner game for Android featuring endless challenges and obstacles, pushing players' reflexes and endurance to the 
+            limit. <br>
+            • "Implemented PlayFab for seamless integration of cloud-based services in the Infinity Runner game, enhancing player data management and 
+            online features."</p>
+          <!-- <a href="project1-details.html">Learn More</a> -->
+        </div>
+      </div>
+      <div class="project">
+        <img src="photoes/2.png" alt="Project 2">
+        <div class="project-info">
+          <h3><a href="">IGI3 Military</a></h3>
+          <p>• Technologies: Unity 3D , C# , Animations  <br>
+            • "Designed challenging missions in IGI3 for Window, where players must complete objectives while facing formidable enemies and hostile drones, 
+            creating an immersive and action-packed gaming experience <br>
+            • "IGI3 features captivating missions with multiple objectives to complete</p>
+          <!-- <a href="project2-details.html">Learn More</a> -->
+        </div>
+      </div>
+      <div class="project">
+        <img src="photoes/2d.png" alt="Project 3">
+        <div class="project-info">
+          <h3><a href="https://drive.google.com/file/d/1N_4DbW24INHHHa_pAlHuKrdPUXFJp8FT/view?usp=drivesdk">Mario 2D</a></h3>
+          <p>• Technologies: : Unity 3D , C# , Animations <br>
+            • "Developed a classic 2D Mario game for Android with nostalgic gameplay, featuring Mario's iconic platforming adventures, power-ups, and challenging 
+            levels for players to enjoy. <br>
+            • "Integrated PlayFab services into the 2D Mario game, enabling online leaderboards, player authentication.</p>
+          <!-- <a href="project3-details.html">Learn More</a>/ -->
+        </div>
+      </div>
+    </section>
+    <!-- Other sections here -->
+  </div>
+</body>
+</html>
+ 
